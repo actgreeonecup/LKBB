@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> INPUT LKBB </title>
+    <link
+      rel="shortcut icon"
+      href="img/lambang_081914.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title"style="text-align: center;">INPUT LKBB</div>
+    <div class="content">
+     <form name="#">
+        <div id="form_alerts"></div>
+        <div class="user-details">
+          <div class="input-box">
+             <label for="NAMA_SEKOLAH" class="form-label">Nama Sekolah</label>
+              <input type="text" id="NAMA_SEKOLAH" name="NAMA_SEKOLAH" class="form-control" placeholder="Masukan nama sekolah" required>
+          </div>
+          <div class="input-box">
+            <label for="No_Peserta" class="form-label">No_Peserta</label>
+              <select type="text" id="No_Peserta" name="No_Peserta" class="form-control" placeholder="Pilih No_Peserta " required>
+                <option>--Pilih No_Peserta--</option>
+                <option>C.01</option>
+<option>C.02</option>
+<option>C.03</option>
+<option>C.04</option>
+<option>C.05</option>
+<option>C.06</option>
+<option>C.07</option>
+<option>C.08</option>
+<option>C.09</option>
+<option>C.10</option>
+<option>C.11</option>
+<option>C.12</option>
+<option>C.13</option>
+<option>C.14</option>
+<option>C.15</option>
+<option>C.16</option>
+<option>C.17</option>
+<option>C.18</option>
+<option>C.19</option>
+<option>C.20</option>
+<option>C.21</option>
+<option>C.22</option>
+<option>C.23</option>
+<option>C.24</option>
+<option>C.25</option>
+<option>C.26</option>
+<option>C.27</option>
+<option>C.28</option>
+<option>C.29</option>
+<option>C.30</option>
+<option>C.31</option>
+<option>C.32</option>
+<option>C.33</option>
+<option>C.34</option>
+<option>C.35</option>
+<option>C.36</option>
+<option>C.37</option>
+<option>C.38</option>
+<option>C.39</option>
+<option>C.40</option>
+<option>C.41</option>
+<option>C.42</option>
+<option>C.43</option>
+<option>C.44</option>
+<option>C.45</option>
+<option>C.46</option>
+<option>C.47</option>
+<option>C.48</option>
+<option>C.49</option>
+<option>C.50</option>
+              </select>
+          </div>
+         <div class="input-box">
+            <label for="JENJANG" class="form-label">JENJANG</label>
+              <select type="text" id="JENJANG" name="JENJANG" class="form-control" placeholder="Pilih JENJANG " required>
+                <option>--Pilih JENJANG--</option>
+                <option>SD</option>
+                <option>SMP</option>
+              </select>
+          </div>
+         <div class="input-box">
+            <label for="JURI" class="form-label">JURI</label>
+              <select type="text" id="JURI" name="JURI" class="form-control" placeholder="Pilih JURI " required>
+                <option>--Pilih JURI--</option>
+                <option>JURI I</option>
+                <option>JURI II</option>
+                <option>JURI III</option>
+              </select>
+          </div>
+          <div class="input-box">
+            <label for="SIKAP_SEMPURNA" class="form-label">SIKAP SEMPURNA</label>
+              <input type="number" id="SIKAP_SEMPURNA" oninput = "ftambah()" name="SIKAP_SEMPURNA" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="SIKAP_ISTIRAHAT" class="form-label">SIKAP ISTIRAHAT</label>
+              <input type="number" id="SIKAP_ISTIRAHAT" oninput = "ftambah()" name="SIKAP_ISTIRAHAT" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="SIKAP_HORMAT" class="form-label">SIKAP HORMAT</label>
+              <input type="number" id="SIKAP_HORMAT" oninput = "ftambah()" name="SIKAP_HORMAT" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="BERHITUNG" class="form-label">BERHITUNG</label>
+              <input type="number" id="BERHITUNG" oninput = "ftambah()" name="BERHITUNG" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="SET_LENCANG_KANAN" class="form-label">1/2 LENCANG KANAN</label>
+              <input type="number" id="SET_LENCANG_KANAN" oninput = "ftambah()" name="SET_LENCANG_KANAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="LENCANG_KANAN" class="form-label">LENCANG KANAN</label>
+              <input type="number" id="LENCANG_KANAN" oninput = "ftambah()" name="LENCANG_KANAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="HADAP_KANAN" class="form-label">HADAP KANAN</label>
+              <input type="number" id="HADAP_KANAN" oninput = "ftambah()" name="HADAP_KANAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="HADAP_KIRI" class="form-label">HADAP KIRI</label>
+              <input type="number" id="HADAP_KIRI" oninput = "ftambah()" name="HADAP_KIRI" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="BALIK_KANAN" class="form-label">BALIK KANAN</label>
+              <input type="number" id="BALIK_KANAN" oninput = "ftambah()" name="BALIK_KANAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="JALAN_DITEMPAT" class="form-label">JALAN DITEMPAT</label>
+              <input type="number" id="JALAN_DITEMPAT" oninput = "ftambah()" name="JALAN_DITEMPAT" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="LANGKAH_KE_DEPAN" class="form-label">2 LANGKAH KE DEPAN</label>
+              <input type="number" id="LANGKAH_KE_DEPAN" oninput = "ftambah()" name="LANGKAH_KE_DEPAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="EMPAT_LANGKAH_KE_BELAKANG" class="form-label">4 LANGKAH KE BELAKANG</label>
+              <input type="number" id="EMPAT_LANGKAH_KE_BELAKANG" oninput = "ftambah()" name="EMPAT_LANGKAH_KE_BELAKANG" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="EMPAT_LANGKAH_KE_KANAN" class="form-label">4 LANGKAH KE KANAN</label>
+              <input type="number" id="EMPAT_LANGKAH_KE_KANAN" oninput = "ftambah()" name="EMPAT_LANGKAH_KE_KANAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="EMPAT_LANGKAH_KE_KIRI" class="form-label">4 LANGKAH KE KIRI</label>
+              <input type="number" id="EMPAT_LANGKAH_KE_KIRI" oninput = "ftambah()" name="EMPAT_LANGKAH_KE_KIRI" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="LANGKAH_TEGAP" class="form-label">LANGKAH TEGAP</label>
+              <input type="number" id="LANGKAH_TEGAP" oninput = "ftambah()" name="LANGKAH_TEGAP" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="LANGKAH_BIASA" class="form-label">LANGKAH BIASA</label>
+              <input type="number" id="LANGKAH_BIASA" oninput = "ftambah()" name="LANGKAH_BIASA" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="VARIASI_FORMASI" class="form-label">VARIASI FORMASI</label>
+              <input type="number" id="VARIASI_FORMASI" oninput = "ftambah()" name="VARIASI_FORMASI" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="MINUS" class="form-label">NILAI MINUS</label>
+              <input type="number" id="MINUS" oninput = "ftambah()" name="MINUS" class="form-control" placeholder="Masukan Nilai" >
+          </div>
+          <!-- <div class="input-box">
+            <label for="hasil" class="form-label">JUMLAH</label>
+             <input type="text" id="hasil" name="result" class="form-control" placeholder="Masukan nama sekolah">
+         </div> -->
+         <p>Hasil Penjumlahan: <span id="hasil" name="hasil"></span></p>
+        </div>
+        <div class="button" style="width: 100%">
+            <button
+              type="submit"
+              onclick="UploadFile();"
+              class="btn btn-primary btn-kirim"
+            >
+              Kirim
+            </button>
+        </button>
+            <button
+              class="btn btn-primary btn-loading d-none"
+              type="button"
+              disabled
+            >
+              <span
+                class="spinner-border spinner-border-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              Loading...
+            
+          </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzGAxRjihcLcbLwSPDgc_FKDnniU3vqPbh6O1UCzr8faInRMoKDi95623NWi3t5UHtl-Q/exec'
+        const form = document.forms['#']
+        
+    const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+     
+
+    function ftambah() {
+    var SIKAP_SEMPURNA = document.getElementById('SIKAP_SEMPURNA').value;
+    var SIKAP_ISTIRAHAT = document.getElementById('SIKAP_ISTIRAHAT').value;
+    var SIKAP_HORMAT = document.getElementById('SIKAP_HORMAT').value;
+    var BERHITUNG = document.getElementById('BERHITUNG').value;
+    var SET_LENCANG_KANAN = document.getElementById('SET_LENCANG_KANAN').value;
+    var LENCANG_KANAN = document.getElementById('LENCANG_KANAN').value;
+    var HADAP_KANAN = document.getElementById('HADAP_KANAN').value;
+    var HADAP_KIRI = document.getElementById('HADAP_KIRI').value;
+    var BALIK_KANAN = document.getElementById('BALIK_KANAN').value;
+    var JALAN_DITEMPAT = document.getElementById('JALAN_DITEMPAT').value;
+    var LANGKAH_KE_DEPAN = document.getElementById('LANGKAH_KE_DEPAN').value;
+    var EMPAT_LANGKAH_KE_BELAKANG = document.getElementById('EMPAT_LANGKAH_KE_BELAKANG').value;
+    var EMPAT_LANGKAH_KE_KANAN = document.getElementById('EMPAT_LANGKAH_KE_KANAN').value;
+    var EMPAT_LANGKAH_KE_KIRI = document.getElementById('EMPAT_LANGKAH_KE_KIRI').value;
+    var LANGKAH_TEGAP= document.getElementById('LANGKAH_TEGAP').value;
+    var LANGKAH_BIASA = document.getElementById('LANGKAH_BIASA').value;
+    var VARIASI_FORMASI= document.getElementById('VARIASI_FORMASI').value;
+    var MINUS = document.getElementById('MINUS').value;
+
+    var hasil= parseFloat(SIKAP_SEMPURNA) + 
+                   parseFloat(SIKAP_ISTIRAHAT) + 
+                   parseFloat(SIKAP_HORMAT) + 
+                   parseFloat(BERHITUNG) + 
+                   parseFloat(SET_LENCANG_KANAN) + 
+                   parseFloat(LENCANG_KANAN) + 
+                   parseFloat(HADAP_KANAN) + 
+                   parseFloat(HADAP_KIRI) + 
+                   parseFloat(JALAN_DITEMPAT) +
+                   parseFloat(BALIK_KANAN) +
+                   parseFloat(LANGKAH_KE_DEPAN) + 
+                   parseFloat(EMPAT_LANGKAH_KE_BELAKANG) + 
+                   parseFloat(EMPAT_LANGKAH_KE_KANAN) + 
+                   parseFloat(EMPAT_LANGKAH_KE_KIRI) + 
+                   parseFloat(LANGKAH_TEGAP) + 
+                   parseFloat(LANGKAH_BIASA) + 
+                   parseFloat(VARIASI_FORMASI);
+                   document.getElementById('hasil').innerText = hasil;
+}
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+                //  $("#form_alerts").html("<div class='alert alert-success'>Data berhasil dikirim.</div>")
+                $("#form_alerts").html("<div class='alert alert-danger'>Data gagal terkirim!.</div>")
+                })
+            .catch(error =>  $("#form_alerts").html("<div class='alert alert-success'>Data berhasil dikirim. Grup Peserta https://chat.whatsapp.com/HIl6Wp1UwbIC7vO488hO4W</div>"))
+            
+        // ketika tombol diklik
+        // tampilkan tombol loading hilangkan tombol kirim
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            fetch(scriptURL, { method: "POST", body: new UploadFile() })
+            // .then((response) => {
+            // // btnLoading.classList.toggle("d-none");
+            // // btnKirim.classList.toggle("d-none");
+            // // myAlert.classList.toggle("d-none");
+           
+            // console.log("Success!", response); })
+            form.reset();
+        })
+
+        
+    </script>
+
+</body>
+</html>
