@@ -162,8 +162,20 @@
               <input type="number" id="LANGKAH_BIASA" oninput = "ftambah()" name="LANGKAH_BIASA" class="form-control" placeholder="Masukan Nilai" required>
           </div>
           <div class="input-box">
-            <label for="VARIASI_FORMASI" class="form-label">VARIASI FORMASI</label>
-              <input type="number" id="VARIASI_FORMASI" oninput = "ftambah()" name="VARIASI_FORMASI" class="form-control" placeholder="Masukan Nilai" required>
+            <label for="KEKOMPAKAN" class="form-label">KEKOMPAKAN</label>
+              <input type="number" id="KEKOMPAKAN" oninput = "ftambah()" name="KEKOMPAKAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="TINGKAT_KESULITAN" class="form-label">TINGKAT KESULITAN</label>
+              <input type="number" id="TINGKAT_KESULITAN" oninput = "ftambah()" name="TINGKAT_KESULITAN" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="KREATIVITAS" class="form-label">KREATIVITAS</label>
+              <input type="number" id="KREATIVITAS" oninput = "ftambah()" name="KREATIVITAS" class="form-control" placeholder="Masukan Nilai" required>
+          </div>
+          <div class="input-box">
+            <label for="KEUTUHAN" class="form-label">KEUTUHAN</label>
+              <input type="number" id="KEUTUHAN" oninput = "ftambah()" name="KEUTUHAN" class="form-control" placeholder="Masukan Nilai" required>
           </div>
           <div class="input-box">
             <label for="MINUS" class="form-label">NILAI MINUS</label>
@@ -229,7 +241,10 @@
     var EMPAT_LANGKAH_KE_KIRI = document.getElementById('EMPAT_LANGKAH_KE_KIRI').value;
     var LANGKAH_TEGAP= document.getElementById('LANGKAH_TEGAP').value;
     var LANGKAH_BIASA = document.getElementById('LANGKAH_BIASA').value;
-    var VARIASI_FORMASI= document.getElementById('VARIASI_FORMASI').value;
+    var KEKOMPAKAN = document.getElementById('KEKOMPAKAN').value;
+    var TINGKAT_KESULITAN = document.getElementById('TINGKAT_KESULITAN').value;
+    var KREATIVITAS = document.getElementById('KREATIVITAS').value;
+    var KEUTUHAN = document.getElementById('KEUTUHAN').value;
     var MINUS = document.getElementById('MINUS').value;
 
     var hasil= parseFloat(SIKAP_SEMPURNA) + 
@@ -248,7 +263,10 @@
                    parseFloat(EMPAT_LANGKAH_KE_KIRI) + 
                    parseFloat(LANGKAH_TEGAP) + 
                    parseFloat(LANGKAH_BIASA) + 
-                   parseFloat(VARIASI_FORMASI);
+                   parseFloat(KEKOMPAKAN) +
+                   parseFloat(TINGKAT_KESULITAN) +
+                   parseFloat(KREATIVITAS) +
+                   parseFloat(KEUTUHAN);
                    document.getElementById('hasil').innerText = hasil;
 }
 
